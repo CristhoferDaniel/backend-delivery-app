@@ -1,0 +1,33 @@
+{
+  "name": "nodeprojects",
+  "version": "1.0.0",
+  "description": "Backend de la aplicacion delivery",
+  "main": " server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flutter",
+    "delivery",
+    "nodejs"
+  ],
+  "author": "Cristhofer Daniel Arismendiz Umbo",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^12.0.0",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg-promise": "^11.5.4",
+    "socket.io": "^4.7.4"
+  }
+}
